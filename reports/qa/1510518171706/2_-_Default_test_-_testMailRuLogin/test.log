@@ -1,0 +1,35 @@
+[2017-11-12 10:22:54] [Messager.java] [14] [INFO] 
+======================================================================================================================================
+INFO: TEST [2 - Default test - testMailRuLogin] STARTED at [22:22:54 2017-11-12]
+[2017-11-12 10:23:11] [CryptoTool.java] [14] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2017-11-12 10:23:11] [CryptoTool.java] [14] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2017-11-12 10:23:11] [CryptoTool.java] [14] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2017-11-12 10:23:11] [CryptoTool.java] [14] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2017-11-12 10:23:20] [Messager.java] [14] [INFO] INFO: url 'https://account.mail.ru/login' is opened.
+[2017-11-12 10:23:25] [Messager.java] [14] [INFO] PASS: keys 'Vasya' are sent to element 'emailTextField'.
+[2017-11-12 10:23:27] [Messager.java] [14] [INFO] PASS: keys '23461' are sent to element 'passwordTextField'.
+[2017-11-12 10:23:32] [Messager.java] [14] [INFO] PASS: element 'signInButton' is clicked.
+[2017-11-12 10:23:34] [Messager.java] [14] [INFO] 
+INFO: TEST [2 - Default test - testMailRuLogin] FAILED at [22:23:34 2017-11-12] - Mail Ru is not logged in expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:93)
+org.testng.Assert.failNotEquals(Assert.java:512)
+org.testng.Assert.assertTrue(Assert.java:41)
+com.qaprosoft.demo.LoginTest.testMailRuLogin(LoginTest.java:35)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+java.util.concurrent.FutureTask.run(Unknown Source)
+java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+java.util.concurrent.FutureTask.run(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+======================================================================================================================================
+[2017-11-12 10:23:34] [CryptoTool.java] [14] [ERROR] File '.\src\main\resources\crypto.key' does not exist

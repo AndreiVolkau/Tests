@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43900" started-at="2017-11-12T20:22:52Z" finished-at="2017-11-12T20:23:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43900" started-at="2017-11-12T20:22:52Z" finished-at="2017-11-12T20:23:36Z">
+      <class name="com.qaprosoft.demo.LoginTest">
+        <test-method status="PASS" signature="executeBeforeTestSuite(org.testng.ITestContext)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="executeBeforeTestSuite" is-config="true" duration-ms="1317" started-at="2017-11-12T22:22:51Z" finished-at="2017-11-12T22:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67389cb8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestSuite -->
+        <test-method status="PASS" signature="executeBeforeTestClass(org.testng.ITestContext)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="executeBeforeTestClass" is-config="true" duration-ms="1" started-at="2017-11-12T22:22:53Z" finished-at="2017-11-12T22:22:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67389cb8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestClass -->
+        <test-method status="PASS" signature="executeBeforeTestMethod(org.testng.xml.XmlTest, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="executeBeforeTestMethod" is-config="true" duration-ms="16" started-at="2017-11-12T22:22:54Z" finished-at="2017-11-12T22:22:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "Default test" verbose:2[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qaprosoft.demo.LoginTest.testMailRuLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@67389cb8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestMethod -->
+        <test-method status="PASS" signature="executeBeforeTestMethod(org.testng.xml.XmlTest, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="executeBeforeTestMethod" is-config="true" duration-ms="21" started-at="2017-11-12T22:22:54Z" finished-at="2017-11-12T22:22:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "Default test" verbose:2[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qaprosoft.demo.LoginTest.testMailRuLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@67389cb8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestMethod -->
+        <test-method status="PASS" signature="executeBeforeTestMethod(org.testng.xml.XmlTest, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="executeBeforeTestMethod" is-config="true" duration-ms="20" started-at="2017-11-12T22:22:54Z" finished-at="2017-11-12T22:22:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "Default test" verbose:2[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qaprosoft.demo.LoginTest.testMailRuLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@67389cb8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeTestMethod -->
+        <test-method status="FAIL" signature="testMailRuLogin(java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="testMailRuLogin" duration-ms="40135" started-at="2017-11-12T22:22:54Z" description="JIRA#DEMO-0005" data-provider="DataProvider" finished-at="2017-11-12T22:23:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Andrew]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Mail Ru is not logged in expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Mail Ru is not logged in expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at com.qaprosoft.demo.LoginTest.testMailRuLogin(LoginTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMailRuLogin -->
+        <test-method status="FAIL" signature="testMailRuLogin(java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="testMailRuLogin" duration-ms="39296" started-at="2017-11-12T22:22:54Z" description="JIRA#DEMO-0005" data-provider="DataProvider" finished-at="2017-11-12T22:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Igor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12347]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Mail Ru is not logged in expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Mail Ru is not logged in expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at com.qaprosoft.demo.LoginTest.testMailRuLogin(LoginTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMailRuLogin -->
+        <test-method status="FAIL" signature="testMailRuLogin(java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="testMailRuLogin" duration-ms="39251" started-at="2017-11-12T22:22:54Z" description="JIRA#DEMO-0005" data-provider="DataProvider" finished-at="2017-11-12T22:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vasya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23461]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Mail Ru is not logged in expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Mail Ru is not logged in expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at com.qaprosoft.demo.LoginTest.testMailRuLogin(LoginTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMailRuLogin -->
+        <test-method status="PASS" signature="executeAfterTestMethod(org.testng.ITestResult)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="executeAfterTestMethod" is-config="true" duration-ms="1859" started-at="2017-11-12T22:23:35Z" finished-at="2017-11-12T22:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMailRuLogin status=FAILURE method=LoginTest.testMailRuLogin(java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestMethod -->
+        <test-method status="PASS" signature="executeAfterTestMethod(org.testng.ITestResult)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="executeAfterTestMethod" is-config="true" duration-ms="1718" started-at="2017-11-12T22:23:35Z" finished-at="2017-11-12T22:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMailRuLogin status=FAILURE method=LoginTest.testMailRuLogin(java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestMethod -->
+        <test-method status="PASS" signature="executeAfterTestMethod(org.testng.ITestResult)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="executeAfterTestMethod" is-config="true" duration-ms="1169" started-at="2017-11-12T22:23:35Z" finished-at="2017-11-12T22:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMailRuLogin status=FAILURE method=LoginTest.testMailRuLogin(java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestMethod -->
+        <test-method status="PASS" signature="executeAfterTestClass(org.testng.ITestContext)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="executeAfterTestClass" is-config="true" duration-ms="1" started-at="2017-11-12T22:23:36Z" finished-at="2017-11-12T22:23:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67389cb8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestClass -->
+        <test-method status="PASS" signature="executeAfterTestSuite(org.testng.ITestContext)[pri:0, instance:com.qaprosoft.demo.LoginTest@6b1274d2]" name="executeAfterTestSuite" is-config="true" duration-ms="97" started-at="2017-11-12T22:23:36Z" finished-at="2017-11-12T22:23:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67389cb8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterTestSuite -->
+      </class> <!-- com.qaprosoft.demo.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

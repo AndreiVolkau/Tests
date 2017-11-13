@@ -1,0 +1,3 @@
+[2017-11-12 01:39:31] [EmailManager.java] [1] [WARN] Invalid email address(es) are specified: ''. Email report can't be sent!
+[2017-11-12 01:39:31] [Messager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2017-11-12 01:39:31] [Messager.java] [1] [INFO] RESULT #1: TEST [Default test - testMailRuLogin] FAIL [screenshots=file://C:\Users\Volkov\eclipse-workspace\VolkovTest\.\reports\qa\1510443537461/Default_test_-_testMailRuLogin/report.html | log=file://C:\Users\Volkov\eclipse-workspace\VolkovTest\.\reports\qa\1510443537461/Default_test_-_testMailRuLogin/test.log]

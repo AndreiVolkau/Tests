@@ -1,0 +1,45 @@
+[2017-11-12 10:21:36] [TestNamingUtil.java] [15] [WARN] CLC0003 - Default test - testMailRuLogin test was already registered. Incrementing invocation count to 3
+[2017-11-12 10:21:36] [Messager.java] [15] [INFO] 
+======================================================================================================================================
+INFO: TEST [CLC0003 - Default test - testMailRuLogin (InvCount=0003)] STARTED at [22:21:36 2017-11-12]
+[2017-11-12 10:21:40] [DriverPool.java] [15] [ERROR] Driver initialization 'default' FAILED for selenium: http://localhost:4444/wd/hub! Retry 1 of 3 time - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'VOLKOV', ip: '192.168.0.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+[2017-11-12 10:21:43] [DriverPool.java] [15] [ERROR] Driver initialization 'default' FAILED for selenium: http://localhost:4444/wd/hub! Retry 2 of 3 time - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'VOLKOV', ip: '192.168.0.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+[2017-11-12 10:21:46] [DriverPool.java] [15] [ERROR] Driver initialization 'default' FAILED for selenium: http://localhost:4444/wd/hub! Retry 3 of 3 time - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'VOLKOV', ip: '192.168.0.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+[2017-11-12 10:21:47] [Messager.java] [15] [INFO] 
+INFO: TEST [CLC0003 - Default test - testMailRuLogin (InvCount=0003)] FAILED at [22:21:47 2017-11-12] - org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'VOLKOV', ip: '192.168.0.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+
+com.qaprosoft.carina.core.foundation.webdriver.DriverPool.createDriver(DriverPool.java:335)
+com.qaprosoft.carina.core.foundation.webdriver.DriverPool.getDriver(DriverPool.java:147)
+com.qaprosoft.carina.core.foundation.webdriver.DriverPool.getDriver(DriverPool.java:99)
+com.qaprosoft.carina.core.foundation.AbstractTest.getDriver(AbstractTest.java:712)
+com.qaprosoft.carina.core.foundation.AbstractTest.getDriver(AbstractTest.java:708)
+com.qaprosoft.demo.LoginTest.testMailRuLogin(LoginTest.java:32)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+java.util.concurrent.FutureTask.run(Unknown Source)
+java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+java.util.concurrent.FutureTask.run(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+======================================================================================================================================
+[2017-11-12 10:21:47] [CryptoTool.java] [15] [ERROR] File '.\src\main\resources\crypto.key' does not exist
